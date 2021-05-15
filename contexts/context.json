@@ -9,7 +9,7 @@
     },
     "sections": [
         {
-            "file": "stylish_template/sections/navbar.html",
+            "file": "stylish-portfolio_template/sections/navbar.html",
             "content": {
                 "id": "sidebar-wrapper",
                 "href": "#",
@@ -49,7 +49,7 @@
             }
         },
         {
-            "file": "stylish_template/sections/header.html",
+            "file": "stylish-portfolio_template/sections/header.html",
             "content": {
                 "heading": "Stylish Portfolio",
                 "subheading": "A Free Bootstrap Theme by Start Bootstrap",
@@ -59,7 +59,7 @@
             }
         },
         {
-            "file": "stylish_template/sections/about.html",
+            "file": "stylish-portfolio_template/sections/about.html",
             "content": {
                 "id": "about",
                 "heading": "Stylish Portfolio is the perfect theme for your next project!",
@@ -75,7 +75,7 @@
             }
         },
         {
-            "file": "stylish_template/sections/services.html",
+            "file": "stylish-portfolio_template/sections/services.html",
             "content": {
                 "id": "services",
                 "heading": "Services",
@@ -111,7 +111,7 @@
             }
         },
         {
-            "file": "stylish_template/sections/callout.html",
+            "file": "stylish-portfolio_template/sections/callout.html",
             "content": {
                 "text": {
                     "part_1": "Welcome to",
@@ -124,7 +124,7 @@
             }
         },
         {
-            "file": "stylish_template/sections/portfolio.html",
+            "file": "stylish-portfolio_template/sections/portfolio.html",
             "content": {
                 "id": "portfolio",
                 "heading": "Portfolio",
@@ -161,7 +161,7 @@
             }
         },
         {
-            "file":"stylish_template/sections/call_to_action.html",
+            "file":"stylish-portfolio_template/sections/call_to_action.html",
             "content":{
                 "section_class":"content-section bg-primary text-white",
                 "heading":"The buttons below are impossible to resist...",
@@ -181,7 +181,7 @@
 
         },
         {
-            "file":"stylish_template/sections/map.html",
+            "file":"stylish-portfolio_template/sections/map.html",
             "content":{
                 "id":"contact",
                 "iframe_src":"https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed",
@@ -189,7 +189,7 @@
             }
         },
         {
-            "file":"stylish_template/sections/footer.html",
+            "file":"stylish-portfolio_template/sections/footer.html",
             "content":{
                 "socials":[
                     {
