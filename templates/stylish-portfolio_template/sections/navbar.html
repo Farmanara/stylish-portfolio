@@ -1,0 +1,9 @@
+    <!-- Navigation-->
+        <a class="menu-toggle rounded" href="{{section.content.href}}"><i class="{{section.content.icon}}"></i></a>
+        <nav id="{{section.content.id}}">
+            <ul class="sidebar-nav">
+            {%for item in section.content.items%}
+                <li class="{{item.class}}"><a class="js-scroll-trigger" href="{{item.href}}">{{item.text}}</a></li>
+            {%endfor%}
+           
+        </nav>

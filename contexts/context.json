@@ -1,0 +1,217 @@
+{
+    "head": {
+        "meta": {
+            "description": "",
+            "author": ""
+        },
+        "title": "Stylish Portfolio - Start Bootstrap Template",
+        "favicon": ""
+    },
+    "sections": [
+        {
+            "file": "stylish_template/sections/navbar.html",
+            "content": {
+                "id": "sidebar-wrapper",
+                "href": "#",
+                "icon": "fas fa-bars",
+                "items": [
+                    {
+                        "class": "sidebar-brand",
+                        "href": "#page-top",
+                        "text": "Start Bootstrap"
+                    },
+                    {
+                        "class": "sidebar-nav-item",
+                        "href": "#page-top",
+                        "text": "Home"
+                    },
+                    {
+                        "class": "sidebar-nav-item",
+                        "href": "#about",
+                        "text": "About"
+                    },
+                    {
+                        "class": "sidebar-nav-item",
+                        "href": "#services",
+                        "text": "Services"
+                    },
+                    {
+                        "class": "sidebar-nav-item",
+                        "href": "#portfolio",
+                        "text": "Portfolio"
+                    },
+                    {
+                        "class": "sidebar-nav-item",
+                        "href": "#contact",
+                        "text": "Contact"
+                    }
+                ]
+            }
+        },
+        {
+            "file": "stylish_template/sections/header.html",
+            "content": {
+                "heading": "Stylish Portfolio",
+                "subheading": "A Free Bootstrap Theme by Start Bootstrap",
+                "btn_class": "btn btn-primary btn-xl js-scroll-trigger",
+                "btn_href": "#about",
+                "btn_text": "Find Out More"
+            }
+        },
+        {
+            "file": "stylish_template/sections/about.html",
+            "content": {
+                "id": "about",
+                "heading": "Stylish Portfolio is the perfect theme for your next project!",
+                "subheading": {
+                    "text_part1": "This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at",
+                    "href": "https://unsplash.com/",
+                    "href_text": "Unsplash",
+                    "text_part2": "!"
+                },
+                "btn_class": "btn btn-dark btn-xl js-scroll-trigger",
+                "btn_href": "#services",
+                "btn_text": "What We Offer"
+            }
+        },
+        {
+            "file": "stylish_template/sections/services.html",
+            "content": {
+                "id": "services",
+                "heading": "Services",
+                "subheading": "What We Offer",
+                "services": [
+                    {
+                        "div_class": "col-lg-3 col-md-6 mb-5 mb-lg-0",
+                        "icon": "icon-screen-smartphone",
+                        "heading": "Responsive",
+                        "subheading": "Looks great on any screen size!"
+                    },
+                    {
+                        "div_class": "col-lg-3 col-md-6 mb-5 mb-lg-0",
+                        "icon": "icon-pencil",
+                        "heading": "Redesigned",
+                        "subheading": "Looks great on any screen size!"
+                    },
+                    {
+                        "div_class": "col-lg-3 col-md-6 mb-5 mb-lg-0",
+                        "icon": "icon-like",
+                        "heading": "Favorited",
+                        "text_part1": "Millions of users",
+                        "inline_icon": "fas fa-heart",
+                        "text_part2": "Start Bootstrap!"
+                    },
+                    {
+                        "div_class": "col-lg-3 col-md-6",
+                        "icon": "icon-mustache",
+                        "heading": "Question",
+                        "subheading": "I mustache you a question..."
+                    }
+                ]
+            }
+        },
+        {
+            "file": "stylish_template/sections/callout.html",
+            "content": {
+                "text": {
+                    "part_1": "Welcome to",
+                    "inline_em": "your",
+                    "part_2": "next website!"
+                },
+                "btn_class": "btn btn-primary btn-xl",
+                "btn_href": "https://startbootstrap.com/theme/stylish-portfolio/",
+                "btn_text": "Download Now!"
+            }
+        },
+        {
+            "file": "stylish_template/sections/portfolio.html",
+            "content": {
+                "id": "portfolio",
+                "heading": "Portfolio",
+                "subheading": "Recent Projects",
+                "projects": [
+                    {   "href":"#!",
+                        "heading": "Stationary",
+                        "subheading": "A yellow pencil with envelopes on a clean, blue backdrop!",
+                        "img_src": "stylish-portfolio_template/assets/img/portfolio-1.jpg",
+                        "img_alt": "..."
+                    },
+                    {
+                        "href":"#!",
+                        "heading": "Ice Cream",
+                        "subheading": "A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!",
+                        "img_src": "stylish-portfolio_template/assets/img/portfolio-2.jpg",
+                        "img_alt": ""
+                    },
+                    {
+                        "href":"#!",
+                        "heading": "Strawberries",
+                        "subheading": "Strawberries are such a tasty snack, especially with a little sugar on top!",
+                        "img_src": "stylish-portfolio_template/assets/img/portfolio-3.jpg",
+                        "img_alt": "..."
+                    },
+                    {
+                        "href":"#!",
+                        "heading": "Workspace",
+                        "subheading": "A yellow workspace with some scissors, pencils, and other objects.",
+                        "img_src": "stylish-portfolio_template/assets/img/portfolio-4.jpg",
+                        "img_alt": "..."
+                    }
+                ]
+            }
+        },
+        {
+            "file":"stylish_template/sections/call_to_action.html",
+            "content":{
+                "section_class":"content-section bg-primary text-white",
+                "heading":"The buttons below are impossible to resist...",
+                "buttons":[
+                    {
+                        "class":"btn btn-xl btn-light mr-4",
+                        "href":"#!",
+                        "text":"Click Me!"
+                    },
+                    {
+                        "class":"btn btn-xl btn-dark",
+                        "href":"#!",
+                        "text":"Click Me!"
+                    }
+                ]
+            }
+
+        },
+        {
+            "file":"stylish_template/sections/map.html",
+            "content":{
+                "id":"contact",
+                "iframe_src":"https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed",
+                "small_src":"https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"
+            }
+        },
+        {
+            "file":"stylish_template/sections/footer.html",
+            "content":{
+                "socials":[
+                    {
+                        "div_class":"social-link rounded-circle text-white mr-3",
+                        "href":"#!",
+                        "icon":"icon-social-facebook"
+                    },
+                    {
+                        "div_class":"social-link rounded-circle text-white mr-3",
+                        "href":"#!",
+                        "icon":"icon-social-twitter"
+                    },
+                    {
+                        "div_class":"social-link rounded-circle text-white",
+                        "href":"#!",
+                        "icon":"icon-social-github"
+                    }
+                        
+                    
+                ],
+                "copyright":"Copyright © Your Website 2021"
+            }
+        }
+    ]
+}

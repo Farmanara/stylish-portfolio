@@ -1,0 +1,9 @@
+   <!-- Call to Action-->
+        <section class="{{section.content.section_class}}">
+            <div class="container text-center">
+                <h2 class="mb-4">{{section.content.heading}}</h2>
+                {%for button in section.content.buttons%}
+                <a class="{{button.class}}" href="{{button.href}}">{{button.text}}</a>
+                {%endfor%}
+            </div>
+        </section>
