@@ -1,26 +1,26 @@
 {%load static%}
- <!-- Portfolio-->
-        <section class="content-section" id="{{section.content.id}}">
-            <div class="container">
-                <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">{{section.content.heading}}</h3>
-                    <h2 class="mb-5">{{section.content.subheading}}</h2>
-                </div>
-                <div class="row no-gutters">
-                {%for project in section.content.projects%}
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="{{project.href}}">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">{{project.heading}}</div>
-                                    <p class="mb-0">{{project.subheading}}</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="{%static project.img_src %}" alt="{{project.img_alt}}" />
-                        </a>
+<!-- Portfolio-->
+<section class="content-section" id="{{section.content.id}}">
+    <div class="container">
+        <div class="content-section-heading text-center">
+            <h3 class="text-secondary mb-0">{{section.content.heading}}</h3>
+            <h2 class="mb-5">{{section.content.subheading}}</h2>
+        </div>
+        <div class="row no-gutters">
+            {%for project in section.content.projects%}
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="{{project.href}}">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <div class="h2">{{project.heading}}</div>
+                            <p class="mb-0">{{project.subheading}}</p>
+                        </div>
                     </div>
-                {%endfor%}
-                   
-                </div>
+                    <img class="img-fluid" src="{%static project.img_src %}" alt="{{project.img_alt}}" />
+                </a>
             </div>
-        </section>
+            {%endfor%}
+
+        </div>
+    </div>
+</section>

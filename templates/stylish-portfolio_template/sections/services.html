@@ -1,34 +1,33 @@
+<!-- Services-->
+<section class="content-section bg-primary text-white text-center" id="{{section.content.id}}">
+    <div class="container">
+        <div class="content-section-heading">
+            <h3 class="text-secondary mb-0">{{section.content.heading}}</h3>
+            <h2 class="mb-5">{{section.content.subheading}}</h2>
+        </div>
+        <div class="row">
 
-        <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="{{section.content.id}}">
-            <div class="container">
-                <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">{{section.content.heading}}</h3>
-                    <h2 class="mb-5">{{section.content.subheading}}</h2>
-                </div>
-                <div class="row">
+            {%for service in section.content.services%}
+            <div class="{{service.div_class}}">
+                <span class="service-icon rounded-circle mx-auto mb-3"><i class="{{service.icon}}"></i></span>
+                {%if service.inline_icon%}
+                <h4><strong>{{service.heading}}</strong></h4>
 
-                    {%for service in section.content.services%}
-                    <div class="{{service.div_class}}">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="{{service.icon}}"></i></span>
-                        {%if service.inline_icon%} 
-                          <h4><strong>{{service.heading}}</strong></h4>
-
-                        <p class="text-faded mb-0">
-                            {{service.text_part1}}
-                            <i class="{{service.inline_icon}}"></i>
-                            {{service.text_part2}}
-                        </p>
-                        {%else%}
-                        <h4><strong>{{service.heading}}</strong></h4>
-                        <p class="text-faded mb-0">{{service.subheading}}</p>
-                        {%endif%}
+                <p class="text-faded mb-0">
+                    {{service.text_part1}}
+                    <i class="{{service.inline_icon}}"></i>
+                    {{service.text_part2}}
+                </p>
+                {%else%}
+                <h4><strong>{{service.heading}}</strong></h4>
+                <p class="text-faded mb-0">{{service.subheading}}</p>
+                {%endif%}
 
 
-                        
-                    </div>
-                    {%endfor%}
 
-                </div>
             </div>
-        </section>
+            {%endfor%}
+
+        </div>
+    </div>
+</section>
